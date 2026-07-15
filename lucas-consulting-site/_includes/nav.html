@@ -1,0 +1,28 @@
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/images/logo-shield.svg' | relative_url }}" alt="" class="brand-mark">
+      <span class="brand-text">{{ site.title }}</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav">
+      <ul class="nav-menu">
+        {% for item in site.data.nav %}
+        <li class="nav-item{% if item.children %} has-dropdown{% endif %}">
+          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          {% if item.children %}
+          <button class="dropdown-toggle" aria-label="Show {{ item.title }} submenu" aria-expanded="false">&#9662;</button>
+          <ul class="dropdown-menu">
+            {% for child in item.children %}
+            <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
