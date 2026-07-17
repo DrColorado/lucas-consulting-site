@@ -1,13 +1,3 @@
-- title: Products
-  url: /products/
-  children:
-    - title: Under Development
-      url: /products/under-development/
-    - title: Available for Purchase
-      url: /products/available-for-purchase/
-    - title: Free Digital Downloads
-      url: /products/free-digital-downloads/
-
 - title: Services
   url: /services/
   children:
@@ -21,6 +11,16 @@
       url: /services/systems-design-development/
     - title: Business Intelligence and Analytics
       url: /services/business-intelligence-analytics/
+
+- title: Products
+  url: /products/
+  children:
+    - title: Under Development
+      url: /products/under-development/
+    - title: Available for Purchase
+      url: /products/available-for-purchase/
+    - title: Free Digital Downloads
+      url: /products/free-digital-downloads/
 
 - title: About Us
   url: /about/
