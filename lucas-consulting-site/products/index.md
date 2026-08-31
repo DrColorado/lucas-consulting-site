@@ -6,7 +6,7 @@ permalink: /products/
 
 # Products
 
-An overview of Lucas Consultant Services product offerings. Use the dropdown menu above, or the links below, to browse by category.
+An overview of Lucas Consultant Services LLC product offerings. Use the dropdown menu above, or the links below, to browse by category.
 
 <div class="card-grid">
   <div class="card">
