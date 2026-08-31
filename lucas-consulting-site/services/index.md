@@ -6,7 +6,7 @@ permalink: /services/
 
 # Services
 
-Lucas Consultant Services offers the following core service areas. Use the dropdown menu above, or the links below, to learn more about each.
+Lucas Consultant Services LLC offers the following core service areas. Use the dropdown menu above, or the links below, to learn more about each.
 
 <div class="card-grid">
   <div class="card">
