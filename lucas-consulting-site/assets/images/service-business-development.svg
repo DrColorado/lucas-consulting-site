@@ -1,0 +1,94 @@
+<svg viewBox="0 0 480 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a globe, an office building, and a spreadsheet, representing business development services">
+  <defs>
+    <linearGradient id="bdBuildingGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c9a06a" />
+      <stop offset="100%" stop-color="#b3854f" />
+    </linearGradient>
+    <radialGradient id="bdOceanGrad" cx="32%" cy="28%" r="75%">
+      <stop offset="0%" stop-color="#cdeaf7" />
+      <stop offset="100%" stop-color="#4a7ea8" />
+    </radialGradient>
+    <clipPath id="bdGlobeClip">
+      <circle cx="245" cy="98" r="62" />
+    </clipPath>
+  </defs>
+
+  <ellipse cx="240" cy="357" rx="175" ry="14" fill="#000000" opacity="0.07" />
+
+  <!-- SPREADSHEET (bottom left) -->
+  <g transform="rotate(-6 132 250)">
+    <rect x="55" y="185" width="155" height="130" rx="8" fill="#ffffff" stroke="#c7ccd1" stroke-width="1.5" />
+    <rect x="55" y="185" width="155" height="24" rx="8" fill="#1b3a5c" />
+    <rect x="55" y="197" width="155" height="12" fill="#1b3a5c" />
+    <line x1="97.5" y1="216" x2="97.5" y2="308" stroke="#c7ccd1" stroke-width="1.5" />
+    <line x1="132.0" y1="216" x2="132.0" y2="308" stroke="#c7ccd1" stroke-width="1.5" />
+    <line x1="166.5" y1="216" x2="166.5" y2="308" stroke="#c7ccd1" stroke-width="1.5" />
+    <line x1="63" y1="234.4" x2="201" y2="234.4" stroke="#c7ccd1" stroke-width="1.5" />
+    <line x1="63" y1="252.8" x2="201" y2="252.8" stroke="#c7ccd1" stroke-width="1.5" />
+    <line x1="63" y1="271.2" x2="201" y2="271.2" stroke="#c7ccd1" stroke-width="1.5" />
+    <line x1="63" y1="289.6" x2="201" y2="289.6" stroke="#c7ccd1" stroke-width="1.5" />
+    <rect x="166.5" y="234.4" width="34.5" height="18.4" fill="#c9973d" opacity="0.25" />
+    <rect x="166.5" y="252.8" width="34.5" height="18.4" fill="#c9973d" opacity="0.25" />
+    <rect x="166.5" y="271.2" width="34.5" height="18.4" fill="#c9973d" opacity="0.25" />
+    <path d="M68,251 L79,240 L89,244 L98,231" fill="none" stroke="#c9973d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="68" cy="251" r="2.4" fill="#c9973d" />
+    <circle cx="79" cy="240" r="2.4" fill="#c9973d" />
+    <circle cx="89" cy="244" r="2.4" fill="#c9973d" />
+    <circle cx="98" cy="231" r="2.4" fill="#c9973d" />
+  </g>
+
+  <!-- BUILDING (bottom right, corner view with front + side faces for dimension) -->
+  <g>
+    <polygon points="385,150 409,136 409,336 385,350" fill="#8a6238" />
+    <polygon points="290,150 385,150 409,136 314,136" fill="#d9b47f" />
+    <rect x="290" y="150" width="95" height="200" rx="3" fill="url(#bdBuildingGrad)" />
+    <rect x="302" y="158" width="15" height="13" rx="2" fill="#f2c96b" opacity="0.9" />
+    <rect x="325" y="158" width="15" height="13" rx="2" fill="#9fb8cc" opacity="0.9" />
+    <rect x="348" y="158" width="15" height="13" rx="2" fill="#9fb8cc" opacity="0.9" />
+    <rect x="371" y="158" width="15" height="13" rx="2" fill="#f2c96b" opacity="0.9" />
+    <rect x="302" y="182" width="15" height="13" rx="2" fill="#9fb8cc" opacity="0.9" />
+    <rect x="325" y="182" width="15" height="13" rx="2" fill="#9fb8cc" opacity="0.9" />
+    <rect x="348" y="182" width="15" height="13" rx="2" fill="#f2c96b" opacity="0.9" />
+    <rect x="371" y="182" width="15" height="13" rx="2" fill="#9fb8cc" opacity="0.9" />
+    <rect x="302" y="206" width="15" height="13" rx="2" fill="#9fb8cc" opacity="0.9" />
+    <rect x="325" y="206" width="15" height="13" rx="2" fill="#f2c96b" opacity="0.9" />
+    <rect x="348" y="206" width="15" height="13" rx="2" fill="#9fb8cc" opacity="0.9" />
+    <rect x="371" y="206" width="15" height="13" rx="2" fill="#9fb8cc" opacity="0.9" />
+    <rect x="302" y="230" width="15" height="13" rx="2" fill="#f2c96b" opacity="0.9" />
+    <rect x="325" y="230" width="15" height="13" rx="2" fill="#9fb8cc" opacity="0.9" />
+    <rect x="348" y="230" width="15" height="13" rx="2" fill="#9fb8cc" opacity="0.9" />
+    <rect x="371" y="230" width="15" height="13" rx="2" fill="#f2c96b" opacity="0.9" />
+    <rect x="302" y="254" width="15" height="13" rx="2" fill="#9fb8cc" opacity="0.9" />
+    <rect x="325" y="254" width="15" height="13" rx="2" fill="#9fb8cc" opacity="0.9" />
+    <rect x="348" y="254" width="15" height="13" rx="2" fill="#f2c96b" opacity="0.9" />
+    <rect x="371" y="254" width="15" height="13" rx="2" fill="#9fb8cc" opacity="0.9" />
+    <rect x="302" y="278" width="15" height="13" rx="2" fill="#9fb8cc" opacity="0.9" />
+    <rect x="325" y="278" width="15" height="13" rx="2" fill="#f2c96b" opacity="0.9" />
+    <rect x="348" y="278" width="15" height="13" rx="2" fill="#9fb8cc" opacity="0.9" />
+    <rect x="371" y="278" width="15" height="13" rx="2" fill="#9fb8cc" opacity="0.9" />
+    <polygon points="391.0,150.5 403.0,143.5 403.0,168.8 391.0,175.8" fill="#6f89a0" opacity="0.85" />
+    <polygon points="391.0,183.8 403.0,176.8 403.0,202.2 391.0,209.2" fill="#6f89a0" opacity="0.85" />
+    <polygon points="391.0,217.2 403.0,210.2 403.0,235.5 391.0,242.5" fill="#6f89a0" opacity="0.85" />
+    <polygon points="391.0,250.5 403.0,243.5 403.0,268.8 391.0,275.8" fill="#6f89a0" opacity="0.85" />
+    <polygon points="391.0,283.8 403.0,276.8 403.0,302.2 391.0,309.2" fill="#6f89a0" opacity="0.85" />
+    <polygon points="391.0,317.2 403.0,310.2 403.0,335.5 391.0,342.5" fill="#6f89a0" opacity="0.85" />
+    <rect x="318" y="306" width="38" height="44" rx="3" fill="#5c4023" />
+    <rect x="321" y="309" width="15" height="41" rx="2" fill="#4a3524" />
+    <rect x="338" y="309" width="15" height="41" rx="2" fill="#4a3524" />
+    <circle cx="332" cy="330" r="1.6" fill="#c9973d" />
+    <circle cx="343" cy="330" r="1.6" fill="#c9973d" />
+  </g>
+
+  <!-- GLOBE (elevated above the other two, close but not touching) -->
+  <circle cx="245" cy="98" r="62" fill="url(#bdOceanGrad)" stroke="#3a6a90" stroke-width="2" />
+  <g clip-path="url(#bdGlobeClip)">
+    <path d="M244.2,44.0 L261.1,45.8 L257.5,54.9 L270.8,60.3 L262.3,66.4 L265.9,77.9 L261.1,91.8 L256.2,106.9 L250.8,120.8 L243.5,109.9 L235.1,96.6 L239.9,82.7 L230.2,70.6 L235.1,56.7 L244.2,44.0 Z" fill="#8bb383" />
+    <path d="M272.0,40.0 L280.8,42.2 L283.0,48.8 L277.5,52.1 L272.0,47.7 L269.8,42.2 L272.0,40.0 Z" fill="#8bb383" />
+    <path d="M198,55 L206,53 L209,59 L203,63 L197,60 Z" fill="#8bb383" />
+    <circle cx="214" cy="132" r="4" fill="#8bb383" />
+    <ellipse cx="245" cy="98" rx="22" ry="62" fill="none" stroke="#e9f2fa" stroke-width="1.6" opacity="0.7" />
+    <path d="M186.9,119.7 Q245.0,129.7 303.1,119.7" fill="none" stroke="#e9f2fa" stroke-width="1.6" opacity="0.7" />
+    <path d="M186.9,76.3 Q245.0,66.3 303.1,76.3" fill="none" stroke="#e9f2fa" stroke-width="1.6" opacity="0.7" />
+    <ellipse cx="222" cy="75" rx="18" ry="10" fill="#ffffff" opacity="0.25" />
+  </g>
+</svg>
