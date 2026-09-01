@@ -23,5 +23,5 @@ An overview of Lucas Consultant Services LLC product offerings. Use the dropdown
     <h3>Free to Download</h3>
     <p>Complimentary resources and tools.</p>
     <a href="{{ '/products/free-to-download/' | relative_url }}">View &rarr;</a>
-  </div>to
+  </div>
 </div>
