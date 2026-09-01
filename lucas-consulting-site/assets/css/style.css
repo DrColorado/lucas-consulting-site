@@ -207,7 +207,22 @@ h1, h2, h3 { color: var(--color-primary-dark); }
   font-weight: 600;
 }
 .btn:hover { background: var(--color-accent); color: #fff; text-decoration: none; }
-
+/* About page bio photo */
+.about-bio { overflow: auto; }
+.about-photo {
+  float: left;
+  margin: 0 1.5rem 1rem 0;
+  text-align: center;
+}
+.about-photo img {
+  display: block;
+}
+.about-photo p {
+  margin: 0.6rem 0 0;
+  font-weight: 600;
+  color: var(--color-primary-dark);
+  line-height: 1.3;
+}
 /* Mobile */
 @media (max-width: 780px) {
   .nav-toggle { display: flex; }
@@ -252,4 +267,8 @@ h1, h2, h3 { color: var(--color-primary-dark); }
   .nav-item.open .dropdown-menu { display: block; }
   .dropdown-menu li a { color: #fff; padding-left: 1.5rem; }
   .dropdown-menu li a:hover { background: rgba(255,255,255,0.08); color: var(--color-accent); }
+  .about-photo {
+    float: none;
+    margin: 0 0 1rem;
+  }
 }
