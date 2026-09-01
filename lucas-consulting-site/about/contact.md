@@ -9,8 +9,8 @@ permalink: /about/contact/
 <div class="contact-layout">
 <div class="contact-info">
 
-Email: [contact@lucasconsultantservices.com](mailto:contact@lucasconsultantservices.com)
-
+Email: contact@lucasconsultantservices.com <br>
+<br>
 Mailing Address:<br>
 Lucas Consultant Services LLC<br>
 6545 Market Ave. North, Suite 100<br>
