@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Currently Available
+title: Available for Purchase
 permalink: /products/available-for-purchase/
 ---
 
