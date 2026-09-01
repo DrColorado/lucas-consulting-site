@@ -8,4 +8,7 @@ permalink: /about/contact/
 
 **Email:** [contact@lucasconsultantservices.com](mailto:contact@lucasconsultantservices.com)
 
-*Placeholder: add phone number, mailing address, and/or a contact form here.*
+**Mailing Address:**<br>
+Lucas Consultant Services LLC<br>
+6545 Market Ave. North, Ste 100<br>
+Canton, OH 44721 USA
