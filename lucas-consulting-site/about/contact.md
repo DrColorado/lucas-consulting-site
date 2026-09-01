@@ -10,5 +10,5 @@ permalink: /about/contact/
 
 **Mailing Address:**<br>
 Lucas Consultant Services LLC<br>
-6545 Market Ave. North, Ste 100<br>
+6545 Market Ave. North, Suite 100<br>
 Canton, OH 44721 USA
