@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Free Digital Downloads
+title: Free to Download
 permalink: /products/free-digital-downloads/
 ---
 
