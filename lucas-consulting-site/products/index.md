@@ -20,8 +20,8 @@ An overview of Lucas Consultant Services LLC product offerings. Use the dropdown
     <a href="{{ '/products/available-for-purchase/' | relative_url }}">View &rarr;</a>
   </div>
   <div class="card">
-    <h3>Free Digital Downloads</h3>
+    <h3>Free to Download</h3>
     <p>Complimentary resources and tools.</p>
-    <a href="{{ '/products/free-digital-downloads/' | relative_url }}">View &rarr;</a>
-  </div>
+    <a href="{{ '/products/free-to-download/' | relative_url }}">View &rarr;</a>
+  </div>to
 </div>
