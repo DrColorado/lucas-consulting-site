@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Free to Download
-permalink: /products/free-digital-downloads/
+permalink: /products/free-to-download/
 ---
 
 # Free to Download
