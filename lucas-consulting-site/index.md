@@ -15,14 +15,14 @@ permalink: /
 
 <div class="card-grid">
   <div class="card">
-    <h3>Services</h3>
-    <p>Project management, strategic management, business development, systems design and development, and business intelligence and analytics.</p>
-    <a href="{{ '/services/' | relative_url }}">Explore Services &rarr;</a>
-  </div>
-  <div class="card">
     <h3>Products</h3>
     <p>Tools and resources — from products in development to items available for purchase and free digital downloads.</p>
     <a href="{{ '/products/' | relative_url }}">Explore Products &rarr;</a>
+  </div>
+  <div class="card">
+    <h3>Services</h3>
+    <p>Project management, strategic management, business development, systems design and development, and business intelligence and analytics.</p>
+    <a href="{{ '/services/' | relative_url }}">Explore Services &rarr;</a>
   </div>
   <div class="card">
     <h3>About Us</h3>
