@@ -197,6 +197,12 @@ h1, h2, h3 { color: var(--color-primary-dark); }
   background: #fff;
 }
 .card h3 { margin-top: 0; }
+.card-illustration {
+  display: block;
+  width: 120px;
+  height: auto;
+  margin: 0.75rem auto 1rem;
+}
 
 .btn {
   display: inline-block;

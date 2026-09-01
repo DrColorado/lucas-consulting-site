@@ -1,0 +1,47 @@
+<svg viewBox="0 0 640 620" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Available for Purchase barricade sign illustration">
+  <defs>
+    <pattern id="stripesAP" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+      <rect width="40" height="40" fill="#0a0a0a" />
+      <rect width="20" height="40" fill="#34c759" />
+    </pattern>
+    <linearGradient id="panelGradAP" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3a3a" />
+      <stop offset="12%" stop-color="#161616" />
+      <stop offset="100%" stop-color="#050505" />
+    </linearGradient>
+    <linearGradient id="postGradAP" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e8e8e8" />
+      <stop offset="50%" stop-color="#aab0b6" />
+      <stop offset="100%" stop-color="#787f85" />
+    </linearGradient>
+    <filter id="glowAP" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="blur" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <ellipse cx="127" cy="602" rx="34" ry="9" fill="#000000" opacity="0.18" />
+  <ellipse cx="513" cy="602" rx="34" ry="9" fill="#000000" opacity="0.18" />
+
+  <rect x="110" y="500" width="34" height="100" rx="7" fill="url(#postGradAP)" stroke="#000000" stroke-width="2" />
+  <rect x="496" y="500" width="34" height="100" rx="7" fill="url(#postGradAP)" stroke="#000000" stroke-width="2" />
+
+  <rect x="20" y="14" width="600" height="64" rx="8" fill="url(#stripesAP)" stroke="#000000" stroke-width="3" />
+  <rect x="20" y="14" width="600" height="20" rx="8" fill="#ffffff" opacity="0.12" />
+
+  <rect x="20" y="94" width="600" height="330" rx="16" fill="url(#panelGradAP)" stroke="#000000" stroke-width="3" />
+  <ellipse cx="320" cy="130" rx="260" ry="30" fill="#ffffff" opacity="0.06" />
+
+  <rect x="20" y="440" width="600" height="64" rx="8" fill="url(#stripesAP)" stroke="#000000" stroke-width="3" />
+  <rect x="20" y="440" width="600" height="20" rx="8" fill="#ffffff" opacity="0.12" />
+
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="900" text-anchor="middle">
+    <text x="320" y="245" font-size="88" textLength="520" lengthAdjust="spacingAndGlyphs" fill="#34c759" filter="url(#glowAP)" opacity="0.65">AVAILABLE</text>
+    <text x="320" y="245" font-size="88" textLength="520" lengthAdjust="spacingAndGlyphs" fill="#34c759">AVAILABLE</text>
+    <text x="320" y="350" font-size="88" textLength="520" lengthAdjust="spacingAndGlyphs" fill="#34c759" filter="url(#glowAP)" opacity="0.65">FOR PURCHASE</text>
+    <text x="320" y="350" font-size="88" textLength="520" lengthAdjust="spacingAndGlyphs" fill="#34c759">FOR PURCHASE</text>
+  </g>
+</svg>
