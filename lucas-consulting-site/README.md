@@ -7,7 +7,7 @@ A simple, free-to-host website built with Jekyll (a static site generator GitHub
 - `index.md` — home page
 - `products/` — Products tab (Under Development, Available for Purchase, Free Digital Downloads)
 - `services/` — Services tab (Project Management, Strategic Management, Business Development Services, Systems Design and Development, Business Intelligence and Analytics)
-- `about/` — About Us tab (Overview, Contact Us, Guestbook)
+- `about/` — About Us tab (Overview, Contact Us)
 - `_data/nav.yml` — controls every dropdown menu in the top navigation
 - `_layouts/default.html` — the shared page template (header, nav, footer)
 - `assets/` — CSS and JS

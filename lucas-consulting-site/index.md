@@ -26,7 +26,7 @@ permalink: /
   </div>
   <div class="card">
     <h3>About Us</h3>
-    <p>Learn more about Lucas Consultant Services LLC, get in touch, or leave a note in our guestbook.</p>
+    <p>Learn more about Lucas Consultant Services LLC, or get in touch.</p>
     <a href="{{ '/about/' | relative_url }}">Learn More &rarr;</a>
   </div>
 </div>
