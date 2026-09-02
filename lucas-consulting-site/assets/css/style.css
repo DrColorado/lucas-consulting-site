@@ -384,10 +384,16 @@ h1, h2, h3 { color: var(--color-primary-dark); }
     flex-direction: column;
   }
   .service-illustration {
+    flex: none;
+    width: 100%;
     max-width: 280px;
-    margin: 0 auto;
+    margin: 1.5rem auto 0;
+    display: block;
   }
   .service-illustration img {
+    display: block;
+    width: 100%;
     height: auto;
+    max-width: 100%;
   }
 }
