@@ -17,17 +17,17 @@ permalink: /
   <div class="card">
     <h3>Products</h3>
     <p>Tools and resources — from products in development to items available for purchase and free digital downloads.</p>
-    <a href="{{ '/products/' | relative_url }}">Explore Products &rarr;</a>
+    <a class="learn-more" href="{{ '/products/' | relative_url }}">Explore Products &rarr;</a>
   </div>
   <div class="card">
     <h3>Services</h3>
     <p>Project management, strategic management, business development, systems design and development, and business intelligence and analytics.</p>
-    <a href="{{ '/services/' | relative_url }}">Explore Services &rarr;</a>
+    <a class="learn-more" href="{{ '/services/' | relative_url }}">Explore Services &rarr;</a>
   </div>
   <div class="card">
     <h3>About Us</h3>
     <p>Learn more about Lucas Consultant Services LLC, or get in touch.</p>
-    <a href="{{ '/about/' | relative_url }}">Learn More &rarr;</a>
+    <a class="learn-more" href="{{ '/about/' | relative_url }}">Learn More &rarr;</a>
   </div>
 </div>
 
