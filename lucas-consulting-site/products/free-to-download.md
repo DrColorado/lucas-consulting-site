@@ -6,4 +6,16 @@ permalink: /products/free-to-download/
 
 # Free to Download
 
-*Placeholder: list free resources here (templates, guides, checklists) with download links.*
+A collection of small, complimentary applications from Lucas Consultant Services LLC. Each download includes a guided installer — just run it, and it will set everything up for you, including a shortcut on your Desktop. An uninstaller is included as well, if you ever want to remove the program.
+
+## Dice Roll
+
+**Windows**
+
+Fascinated by probability and random numbers? We are too. Our Dice Roll program is a simple app designed to simulate the rolling of either one or two dice, and includes an option for sound and a very simple animation of the roll. Designed years ago (when we were known as "Lucas Consulting Services") we offered this free-of-charge to schools for demonstrating the mathematical concepts behind this historic game of chance. At the time, we also provided teachers a sample lesson plan with exercises for students to record the outcomes of every roll, and then calculate averages and learn about the concepts of probability and prediction. We hope you enjoy the application!
+
+<a class="btn" href="{{ '/assets/downloads/DiceRoll-v1.zip' | relative_url }}">Download Dice Roll (.zip)</a>
+
+*After downloading, extract the zip file, then run Installer.exe and follow the on-screen instructions.*
+
+Looking for a Mac or Linux version? We don't have one yet, but we'd like to know if there's interest. [Let us know]({{ '/about/contact/' | relative_url }}) and we'll factor it into what we build next.
