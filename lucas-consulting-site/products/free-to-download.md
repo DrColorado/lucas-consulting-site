@@ -27,3 +27,23 @@ A collection of small, complimentary applications from Lucas Consultant Services
 <img src="{{ '/assets/images/dice-roll-icon.png' | relative_url }}" alt="Two red dice">
 </div>
 </div>
+
+## Tic Tac Toe
+
+<div class="download-listing">
+<div class="download-text">
+<p><strong>Windows</strong></p>
+
+<p>Almost all of us played this game as kids, sometimes with chalk on the sidewalk, on a napkin, or even on fogged-up glass in our station wagon. We wrote this app and offered it free-of-charge to classrooms years ago, when we were still known as "Lucas Consulting Services." We designed the program to allow for a two player game, or for a single user to play against the computer using a very simple form of Artificial Intelligence. As an exercise in understanding strategy and critical thinking, the app also allows the user to toggle a tool ON or OFF to show the order of each move for each player in real-time to better understand the path to winning each game. We think it's an entertaining and very old game that still provides an interesting challenge for all ages. We were told this was a classroom favorite. Enjoy!</p>
+
+<a class="btn" href="{{ '/assets/downloads/TicTacToe-v1.zip' | relative_url }}">Download Tic Tac Toe (.zip)</a>
+
+<p><em>After downloading, extract the zip file, then run Installer.exe and follow the on-screen instructions.</em></p>
+
+<p>Looking for a Mac or Linux version? We don't have one yet, but we'd like to know if there's interest. <a href="{{ '/about/contact/' | relative_url }}">Let us know</a> and we'll factor it into what we build next.</p>
+</div>
+
+<div class="download-photo">
+<img src="{{ '/assets/images/tictactoe-icon.png' | relative_url }}" alt="Tic Tac Toe grid icon">
+</div>
+</div>
