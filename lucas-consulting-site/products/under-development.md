@@ -12,7 +12,15 @@ We're currently building new products. Here's what's in progress — check back 
 
 *Currently in private beta. Early access is available by request.*
 
-How often do you ask yourself: "What money do I have? Where does it come from, and where does it go?" The Financial Transaction Analysis Partner, or FTAP for short, is an easy-to-use system that accepts your monthly financial statements and automatically extracts all critical transactions into a comprehensive database. No time-consuming, exhaustive data entry or paperwork to sort, organize, review, or file. Each unique transaction is automatically catalogued for you with the date, payee, amount, description, and other key account information. Any financial statement in PDF form can be accepted and processed by FTAP to build and maintain your own uniquely detailed and complete financial transaction database. PDF statement types may include your monthly checking and savings bank account statements, credit cards, mortgage or car loans, and brokerage or investment statements as well. After each statement is processed by FTAP and relevant financial transactions are extracted, the PDFs are neatly archived for you, so that you may conveniently access and refer to them later when you want, or need them.
+<div class="intro-listing">
+<div class="intro-text">
+<p>How often do you ask yourself: "What money do I have? Where does it come from, and where does it go?" The Financial Transaction Analysis Partner, or FTAP for short, is an easy-to-use system that accepts your monthly financial statements and automatically extracts all critical transactions into a comprehensive database. No time-consuming, exhaustive data entry or paperwork to sort, organize, review, or file. Each unique transaction is automatically catalogued for you with the date, payee, amount, description, and other key account information. Any financial statement in PDF form can be accepted and processed by FTAP to build and maintain your own uniquely detailed and complete financial transaction database. PDF statement types may include your monthly checking and savings bank account statements, credit cards, mortgage or car loans, and brokerage or investment statements as well. After each statement is processed by FTAP and relevant financial transactions are extracted, the PDFs are neatly archived for you, so that you may conveniently access and refer to them later when you want, or need them.</p>
+</div>
+
+<div class="intro-photo">
+<img src="{{ '/assets/images/ftap-intro-banner.png' | relative_url }}" alt="FTAP - Financial Transaction Analysis Partner, beta version for early testing, coming soon">
+</div>
+</div>
 
 Best of all, FTAP utilizes the power of Artificial Intelligence and allows you to ask questions about your personal financial circumstances. "How much did I spend on Amazon last month?" "What have I spent on food so far this year?" "What am I spending on my credit card on average each month?" "What deposits have I made this year?" Or "What was my water bill last month compared to the same month last year?"
 

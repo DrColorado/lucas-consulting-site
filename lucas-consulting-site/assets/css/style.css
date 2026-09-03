@@ -282,6 +282,30 @@ h1, h2, h3 { color: var(--color-primary-dark); }
 .download-text p:last-child {
   margin-bottom: 0;
 }
+/* Under Development intro listing */
+.intro-listing {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.intro-photo {
+  flex: 0 0 auto;
+  width: 280px;
+  margin: 0;
+}
+.intro-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.intro-text {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.intro-text p {
+  margin: 0;
+}
 /* Beta signup form */
 .beta-form {
   max-width: 420px;
@@ -421,6 +445,13 @@ h1, h2, h3 { color: var(--color-primary-dark); }
   }
   .download-photo {
     width: 160px;
+    margin: 0 0 1rem;
+  }
+  .intro-listing {
+    flex-direction: column;
+  }
+  .intro-photo {
+    width: 200px;
     margin: 0 0 1rem;
   }
   .contact-layout {
