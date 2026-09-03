@@ -251,6 +251,11 @@ h1, h2, h3 { color: var(--color-primary-dark); }
   margin-bottom: 0;
 }
 /* Free to Download listings */
+.platform-note {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--color-text);
+}
 .download-listing {
   display: flex;
   align-items: flex-start;
