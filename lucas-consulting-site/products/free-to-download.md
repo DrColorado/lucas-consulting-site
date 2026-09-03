@@ -11,10 +11,6 @@ A collection of small, complimentary applications from Lucas Consultant Services
 ## Dice Roll
 
 <div class="download-listing">
-<div class="download-photo">
-<img src="{{ '/assets/images/dice-roll-icon.png' | relative_url }}" alt="Two red dice">
-</div>
-
 <div class="download-text">
 <p><strong>Windows</strong></p>
 
@@ -25,5 +21,9 @@ A collection of small, complimentary applications from Lucas Consultant Services
 <p><em>After downloading, extract the zip file, then run Installer.exe and follow the on-screen instructions.</em></p>
 
 <p>Looking for a Mac or Linux version? We don't have one yet, but we'd like to know if there's interest. <a href="{{ '/about/contact/' | relative_url }}">Let us know</a> and we'll factor it into what we build next.</p>
+</div>
+
+<div class="download-photo">
+<img src="{{ '/assets/images/dice-roll-icon.png' | relative_url }}" alt="Two red dice">
 </div>
 </div>
