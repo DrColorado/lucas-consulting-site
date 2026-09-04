@@ -9,7 +9,7 @@ permalink: /about/
 <div class="about-bio">
 <div class="about-photo">
 <img src="{{ '/assets/images/george-lucas-headshot.jpg' | relative_url }}" alt="Dr. George Lucas, Jr., Chief Consultant">
-<p>Dr. George Lucas, Jr.<br>Chief Consultant</p>
+<p>Dr. George Lucas, Jr.<br>Chief Consultant<br><a href="https://www.linkedin.com/in/drgeorgelucas/" target="_blank" rel="noopener">LinkedIn</a></p>
 </div>
 
 <div class="about-text">
