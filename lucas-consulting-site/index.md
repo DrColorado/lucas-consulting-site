@@ -21,7 +21,7 @@ permalink: /
   </div>
   <div class="card">
     <h3>Services</h3>
-    <p>Project management, strategic management, business development, systems design and development, and business intelligence and analytics.</p>
+    <p>Project management, strategic planning, business development, systems design and development, and business intelligence and analytics.</p>
     <a class="learn-more" href="{{ '/services/' | relative_url }}">Explore Services &rarr;</a>
   </div>
   <div class="card">
