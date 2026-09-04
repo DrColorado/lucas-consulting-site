@@ -180,9 +180,11 @@ h1, h2, h3 { color: var(--color-primary-dark); }
   background: var(--color-bg-alt);
   padding: 3rem 1.5rem;
   text-align: center;
+  border: 2px solid #182a6b;
+  border-radius: 6px;
 }
 .hero h1 { font-size: 2.2rem; margin-bottom: 0.5rem; }
-.hero p { font-size: 1.15rem; color: #4a5563; }
+.hero p { font-size: 1rem; color: #4a5563; white-space: nowrap; }
 
 .card-grid {
   display: grid;
@@ -392,6 +394,10 @@ h1, h2, h3 { color: var(--color-primary-dark); }
 }
 /* Mobile */
 @media (max-width: 780px) {
+  .hero p {
+    white-space: normal;
+    font-size: 0.95rem;
+  }
   .nav-toggle { display: flex; }
 
   .site-nav {
