@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Strategic Management
+title: Strategic Planning
 permalink: /services/strategic-management/
 ---
 
-# Strategic Management
+# Strategic Planning
 
 <div class="service-layout">
 <div class="service-text" markdown="1">

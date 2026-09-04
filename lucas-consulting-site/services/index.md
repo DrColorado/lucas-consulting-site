@@ -15,7 +15,7 @@ Lucas Consultant Services LLC offers the following core service areas. Use the d
     <a class="learn-more" href="{{ '/services/project-management/' | relative_url }}">Learn more &rarr;</a>
   </div>
   <div class="card">
-    <h3>Strategic Management</h3>
+    <h3>Strategic Planning</h3>
     <p>Refining or building your strategic plan, tracked and delivered with care.</p>
     <a class="learn-more" href="{{ '/services/strategic-management/' | relative_url }}">Learn more &rarr;</a>
   </div>
