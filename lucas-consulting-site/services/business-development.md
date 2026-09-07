@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Business Development Services
+title: Business Development
 permalink: /services/business-development/
 ---
 
-# Business Development Services
+# Business Development
 
 <div class="service-layout">
 <div class="service-text" markdown="1">

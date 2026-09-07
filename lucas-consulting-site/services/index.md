@@ -20,7 +20,7 @@ Lucas Consultant Services LLC offers the following core service areas. Use the d
     <a class="learn-more" href="{{ '/services/strategic-management/' | relative_url }}">Learn more &rarr;</a>
   </div>
   <div class="card">
-    <h3>Business Development Services</h3>
+    <h3>Business Development</h3>
     <p>Growing your business, from market analysis to financial health.</p>
     <a class="learn-more" href="{{ '/services/business-development/' | relative_url }}">Learn more &rarr;</a>
   </div>
