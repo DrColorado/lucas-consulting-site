@@ -1,7 +1,7 @@
 - title: Products
   url: /products/
   children:
-    - title: Under Development
+    - title: Coming Soon
       url: /products/under-development/
     - title: Available for Purchase
       url: /products/available-for-purchase/

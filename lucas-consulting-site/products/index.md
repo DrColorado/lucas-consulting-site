@@ -10,9 +10,9 @@ An overview of Lucas Consultant Services LLC product offerings. Use the dropdown
 
 <div class="card-grid">
   <div class="card">
-    <h3>Under Development</h3>
+    <h3>Coming Soon</h3>
     <p>A look at what's coming next.</p>
-    <img src="{{ '/assets/images/product-under-development.svg' | relative_url }}" alt="Under Development illustration" class="card-illustration">
+    <img src="{{ '/assets/images/product-under-development.svg' | relative_url }}" alt="Coming Soon illustration" class="card-illustration">
     <a class="learn-more" href="{{ '/products/under-development/' | relative_url }}">View &rarr;</a>
   </div>
   <div class="card">
