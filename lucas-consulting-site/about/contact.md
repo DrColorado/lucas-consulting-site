@@ -9,7 +9,7 @@ permalink: /about/contact/
 <div class="contact-layout">
 <div class="contact-info">
 
-Email: contact@lucasconsultantservices.com <br>
+<u>Email:</u> contact@lucasconsultantservices.com <br>
 <br>
 <u>Mailing Address:</u><br>
 Lucas Consultant Services LLC<br>
