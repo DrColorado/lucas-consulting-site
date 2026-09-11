@@ -26,4 +26,16 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   });
+
+  // Collapsible "How does FTAP work?" details
+  var detailsToggle = document.getElementById('ftap-details-toggle');
+  var details = document.getElementById('ftap-details');
+
+  if (detailsToggle && details) {
+    detailsToggle.addEventListener('click', function () {
+      var isOpen = details.classList.toggle('open');
+      detailsToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      detailsToggle.textContent = isOpen ? 'Hide Details' : 'How does FTAP work?';
+    });
+  }
 });

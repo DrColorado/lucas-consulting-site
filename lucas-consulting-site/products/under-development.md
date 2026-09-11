@@ -26,8 +26,15 @@ Best of all, FTAP utilizes the power of Artificial Intelligence and allows you t
 
 Think of the benefits. FTAP can collect and organize virtually all of your financial statement data and give you extremely valuable insight into what you are making, and how you are spending your money.
 
+<div id="ftap-details" class="collapsible-details" markdown="1">
+
 How does FTAP work? Any financial statement you download can be easily selected and moved to the FTAP "holding folder," where those PDFs can be processed either as a single file, or as a group all at once. FTAP does the work for you. The PDFs are quickly scanned and validated as legitimate, and the transactions are automatically extracted and added to your personal financial transaction database. Your PDFs are archived automatically, and once your PDFs are processed, you may submit "prompts" to FTAP to analyze your financial transaction database. Prompts may be saved, edited, and managed in your own personalized Prompt Analysis Library. Each prompt provides a detailed response, which you may then save to your own Prompt Report Archive for future reference, printing, or sharing. In addition, you may search and view your financial transaction database — scroll through all of your records, or search for and view individual transactions with ease. You may also filter your records by credit and debit cards, brokerage, investment, loan, or other transaction types, and apply a variety of sorting options for date, payee, or transaction amount. By design, you can find an individual transaction and, if you wish, pull up and review the actual statement from your PDF archive.
 
 The Artificial Intelligence component of FTAP handles two major functions of the system: PDF processing, where your financial transactions are extracted, and prompt analysis, where you can ask questions directly about your personal database of financial transactions. For these functions, you must have an active Claude AI account with Anthropic. Much like a cell phone you purchase, your device has features that don't require a connection, but your cell carrier provides very specific services with your account. In the same way, FTAP allows you to view your financial transaction records, access your Prompt Report Archives, access your PDFs, and access system statistics and utilities, while Claude AI provides the analytical services that uniquely complement what FTAP offers. In this way, FTAP is your personal device, and Claude AI is the service, together providing a uniquely personal and powerful way to organize, access, and analyze your financial activities.
 
+</div>
+
+<div class="cta-row">
+<button type="button" id="ftap-details-toggle" class="btn btn-secondary" aria-expanded="false" aria-controls="ftap-details">How does FTAP work?</button>
 <a class="btn" href="{{ '/products/ftap-beta/' | relative_url }}">Request Early Access</a>
+</div>
