@@ -352,7 +352,8 @@ h1, h2, h3 { color: var(--color-primary-dark); }
   color: var(--color-primary-dark);
 }
 .beta-form input[type="text"],
-.beta-form input[type="email"] {
+.beta-form input[type="email"],
+.beta-form textarea {
   width: 100%;
   padding: 0.6rem 0.75rem;
   border: 1px solid var(--color-border);
@@ -360,8 +361,13 @@ h1, h2, h3 { color: var(--color-primary-dark); }
   font-family: var(--font-body);
   font-size: 1rem;
 }
+.beta-form textarea {
+  resize: vertical;
+  min-height: 6rem;
+}
 .beta-form input[type="text"]:focus,
-.beta-form input[type="email"]:focus {
+.beta-form input[type="email"]:focus,
+.beta-form textarea:focus {
   outline: 2px solid var(--color-accent);
   outline-offset: 1px;
 }
@@ -386,8 +392,10 @@ h1, h2, h3 { color: var(--color-primary-dark); }
   flex: 0 0 auto;
   width: 300px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
   padding: 1rem;
 }
 .contact-illustration img {

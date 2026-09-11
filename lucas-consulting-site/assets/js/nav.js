@@ -27,15 +27,18 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  // Collapsible "How does FTAP work?" details
-  var detailsToggle = document.getElementById('ftap-details-toggle');
-  var details = document.getElementById('ftap-details');
+  // Generic collapsible "reveal" buttons (e.g. "How does FTAP work?", "Message Us Directly")
+  document.querySelectorAll('.toggle-reveal').forEach(function (btn) {
+    var target = document.getElementById(btn.getAttribute('data-target'));
+    if (!target) return;
 
-  if (detailsToggle && details) {
-    detailsToggle.addEventListener('click', function () {
-      var isOpen = details.classList.toggle('open');
-      detailsToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-      detailsToggle.textContent = isOpen ? 'Hide Details' : 'How does FTAP work?';
+    var labelClosed = btn.getAttribute('data-label-closed') || btn.textContent;
+    var labelOpen = btn.getAttribute('data-label-open') || labelClosed;
+
+    btn.addEventListener('click', function () {
+      var isOpen = target.classList.toggle('open');
+      btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      btn.textContent = isOpen ? labelOpen : labelClosed;
     });
-  }
+  });
 });

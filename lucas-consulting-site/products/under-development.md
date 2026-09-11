@@ -35,6 +35,6 @@ The Artificial Intelligence component of FTAP handles two major functions of the
 </div>
 
 <div class="cta-row">
-<button type="button" id="ftap-details-toggle" class="btn btn-secondary" aria-expanded="false" aria-controls="ftap-details">How does FTAP work?</button>
+<button type="button" class="btn btn-secondary toggle-reveal" data-target="ftap-details" data-label-closed="How does FTAP work?" data-label-open="Hide Details" aria-expanded="false" aria-controls="ftap-details">How does FTAP work?</button>
 <a class="btn" href="{{ '/products/ftap-beta/' | relative_url }}">Request Early Access</a>
 </div>
