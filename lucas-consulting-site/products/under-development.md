@@ -24,7 +24,7 @@ We're currently building new products. Here's what's in progress — check back 
 
 Best of all, FTAP utilizes the power of Artificial Intelligence and allows you to ask questions about your personal financial circumstances. "How much did I spend on Amazon last month?" "What have I spent on food so far this year?" "What am I spending on my credit card on average each month?" "What deposits have I made this year?" Or "What was my water bill last month compared to the same month last year?"
 
-Think of the benefits. FTAP can collect and organize virtually all of your financial statement data and give you extremely valuable insight into what you are making, and how you are spending your money.
+Think of the benefits. FTAP can collect and organize virtually all of your financial statement data and provide extremely valuable insight into what you are making, and how you are spending your money.
 
 <div id="ftap-details" class="collapsible-details" markdown="1">
 
