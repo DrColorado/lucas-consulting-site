@@ -7,9 +7,9 @@ noindex: true
 
 # FTAP Private Beta
 
-Thank you for helping us test FTAP. This page is available only to invited members of our beta test group — please don't share this link publicly.
+Thank you for helping us complete our testing of FTAP, the Financial Transaction Analysis Partner. This page is available only to invited members, so please don't share this link publicly.
 
-FTAP is still early-stage software. Please expect rough edges, and let us know what you run into.
+FTAP is in the final stages of development, but not yet a complete package. As you install, set up, and begin to use the package, please share your comments, insights, and suggestions.
 
 To request your download link, enter your name and email address below. We'll use this only to manage the beta test group and to follow up about your feedback.
 
