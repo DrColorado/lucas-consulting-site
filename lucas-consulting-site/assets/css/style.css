@@ -516,32 +516,36 @@ h1, h2, h3 { color: var(--color-primary-dark); }
     height: auto;
     max-width: 100%;
   }
-  .approach-cycle-icon {
-    width: 160px;
-    height: 160px;
-  }
 }
 
-/* Our Approach page */
+/* Our Approach page: steps arranged in a circle around the animated icon,
+   matching the arrangement from the original slide */
 .approach-diagram {
-  text-align: center;
-  margin: 1rem 0 2rem;
+  position: relative;
+  width: min(600px, 92vw);
+  aspect-ratio: 1 / 1;
+  margin: 2.5rem auto 3rem;
 }
 .approach-cycle-icon {
-  width: 220px;
-  height: 220px;
-  max-width: 60vw;
-}
-.process-steps {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 1.5rem;
-  margin: 1.5rem 0 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40%;
+  height: 40%;
+  transform: translate(-50%, -50%);
 }
 .process-step {
+  position: absolute;
+  width: 150px;
+  max-width: 40vw;
   text-align: center;
-  padding: 1rem;
+  transform: translate(-50%, -50%);
 }
+.step-1 { left: 50%;    top: 12%; }
+.step-2 { left: 86.1%;  top: 38.3%; }
+.step-3 { left: 72.3%;  top: 80.7%; }
+.step-4 { left: 27.7%;  top: 80.7%; }
+.step-5 { left: 13.9%;  top: 38.3%; }
 .step-number {
   display: inline-flex;
   align-items: center;
@@ -553,10 +557,37 @@ h1, h2, h3 { color: var(--color-primary-dark); }
   color: #fff;
   font-weight: 700;
   font-size: 1.1rem;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.5rem;
 }
 .process-step h3 {
   margin: 0.3rem 0 0;
-  font-size: 1.05rem;
+  font-size: 1rem;
+  line-height: 1.25;
   color: var(--color-primary-dark);
+}
+
+/* Below ~600px, the circular layout gets cramped — stack it instead */
+@media (max-width: 600px) {
+  .approach-diagram {
+    position: static;
+    width: auto;
+    aspect-ratio: auto;
+    text-align: center;
+    margin: 1.5rem 0 2rem;
+  }
+  .approach-cycle-icon {
+    position: static;
+    transform: none;
+    display: block;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 1.5rem;
+  }
+  .process-step {
+    position: static;
+    transform: none;
+    width: auto;
+    max-width: none;
+    margin: 0 0 1.25rem;
+  }
 }
