@@ -27,5 +27,7 @@
   children:
     - title: Overview
       url: /about/
+    - title: Our Approach
+      url: /about/approach/
     - title: Contact Us
       url: /about/contact/

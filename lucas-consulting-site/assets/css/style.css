@@ -516,4 +516,47 @@ h1, h2, h3 { color: var(--color-primary-dark); }
     height: auto;
     max-width: 100%;
   }
+  .approach-cycle-icon {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+/* Our Approach page */
+.approach-diagram {
+  text-align: center;
+  margin: 1rem 0 2rem;
+}
+.approach-cycle-icon {
+  width: 220px;
+  height: 220px;
+  max-width: 60vw;
+}
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0 2rem;
+}
+.process-step {
+  text-align: center;
+  padding: 1rem;
+}
+.step-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 0.6rem;
+}
+.process-step h3 {
+  margin: 0.3rem 0 0;
+  font-size: 1.05rem;
+  color: var(--color-primary-dark);
 }
