@@ -6,7 +6,7 @@ permalink: /about/approach/
 
 # Our Approach
 
-<p>Every engagement follows the same disciplined, continuous cycle &mdash; whether we're solving a single problem or guiding a long-term initiative. It's iterative by design: once a solution is monitored, managed, and refined, we return to the first step and keep improving.</p>
+<p>Our approach to consulting is straightforward and predictable. Whether we're solving a single problem or guiding a long-term initiative, every engagement follows the same disciplined, iterative cycle that allows for monitoring, managing, and making refinements that adapt to the evolving conditions around you and your business.</p>
 
 <div class="approach-diagram">
   <img src="{{ '/assets/images/approach-cycle.gif' | relative_url }}" alt="Animated icon of a cycle of arrows, representing our continuous, repeating improvement process" class="approach-cycle-icon">
