@@ -379,13 +379,13 @@ h1, h2, h3 { color: var(--color-primary-dark); }
 /* Contact page layout */
 .contact-layout {
   display: flex;
-  align-items: center;
-  gap: 0.75rem;
+  align-items: flex-start;
+  gap: 2rem;
   flex-wrap: wrap;
-  max-width: 650px;
+  max-width: 950px;
 }
 .contact-info {
-  flex: 0 1 auto;
+  flex: 0 1 260px;
   min-width: 0;
 }
 .contact-illustration {
@@ -402,6 +402,16 @@ h1, h2, h3 { color: var(--color-primary-dark); }
   width: 100%;
   height: auto;
   display: block;
+}
+.contact-layout .collapsible-details.open {
+  display: block;
+  flex: 1 1 280px;
+  min-width: 260px;
+  margin: 0;
+}
+.contact-layout .collapsible-details .beta-form {
+  max-width: none;
+  margin: 0;
 }
 /* Service page layout: text left, illustration right, matched heights */
 .service-layout {
@@ -499,6 +509,7 @@ h1, h2, h3 { color: var(--color-primary-dark); }
   }
   .contact-layout {
     flex-direction: column;
+    align-items: stretch;
   }
   .service-layout {
     flex-direction: column;

@@ -22,8 +22,6 @@ Canton, OH 44721 USA
 
 <button type="button" class="btn btn-secondary toggle-reveal" data-target="contact-message-form" data-label-closed="Message Us Directly" data-label-open="Hide Message Form" aria-expanded="false" aria-controls="contact-message-form">Message Us Directly</button>
 </div>
-</div>
-
 <div id="contact-message-form" class="collapsible-details">
 
 <form name="contact-message" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="{{ '/about/message-sent/' | relative_url }}" class="beta-form">
@@ -42,4 +40,5 @@ Canton, OH 44721 USA
   <button type="submit" class="btn">Send Message</button>
 </form>
 
+</div>
 </div>
