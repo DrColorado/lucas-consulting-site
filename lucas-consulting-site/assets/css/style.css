@@ -541,10 +541,10 @@ h1, h2, h3 { color: var(--color-primary-dark); }
   text-align: center;
   transform: translate(-50%, -50%);
 }
-.step-1 { left: 50.6%;  top: 11.6%; }
+.step-1 { left: 50.6%;  top: 12%; }
 .step-2 { left: 13.9%;  top: 38.4%; }
-.step-3 { left: 31%;    top: 88%; }
-.step-4 { left: 84%;    top: 83.6%; }
+.step-3 { left: 33%;    top: 84%; }
+.step-4 { left: 77.1%;  top: 76.7%; }
 .step-5 { left: 84.9%;  top: 34.6%; }
 .step-number {
   display: inline-flex;
