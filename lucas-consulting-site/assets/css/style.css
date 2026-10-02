@@ -379,7 +379,7 @@ h1, h2, h3 { color: var(--color-primary-dark); }
 /* Contact page layout */
 .contact-layout {
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   gap: 2rem;
   flex-wrap: wrap;
   max-width: 950px;
@@ -393,7 +393,7 @@ h1, h2, h3 { color: var(--color-primary-dark); }
   width: 300px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 1rem;
   padding: 1rem;
