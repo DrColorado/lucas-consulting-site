@@ -396,12 +396,13 @@ h1, h2, h3 { color: var(--color-primary-dark); }
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  padding: 1rem;
+  padding: 0 1rem;
 }
 .contact-illustration img {
   width: 100%;
   height: auto;
   display: block;
+  margin: -8.4% 0 -16.2%;
 }
 .contact-layout .collapsible-details.open {
   display: block;
